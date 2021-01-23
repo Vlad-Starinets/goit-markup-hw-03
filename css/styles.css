@@ -1,0 +1,283 @@
+:root {
+--text-font: 'Roboto', sans-serif;
+--accent-color: #2196F3;
+--main-text-color:#757575;
+--background-color:#2F303A;
+--second-text-color:#FFFFFF;
+--title-color:#212121;
+}
+
+body{
+    font-family: var(--text-font)
+}
+
+/* ====================== HEADER========================= */
+
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.292;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    text-decoration: none;
+}
+
+.logo-web{
+    color: var(--accent-color);
+}
+
+.logo-studio {
+    color: var(--second-text-color);
+}
+
+.navigation-list {
+    list-style: none;
+}
+
+.navigation-list .navigation-list-item .navigation-list-link.current{
+    color: var(--accent-color);
+}
+
+.navigation-list-link { 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color:var(--title-color);
+    text-decoration: none;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.contact-mail:hover,
+.contact-mail:focus,
+.contact-tel:hover,
+.contact-tel:focus {
+    color: var(--accent-color);
+}
+
+.contact-list {
+    list-style: none;
+}
+
+.contact-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+.contact-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+
+/* ====================== END HEADER ========================= */
+
+
+/* ======================== HERO ============================ */
+.hero{
+    background: var(--background-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--second-text-color);
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--second-text-color);
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* ======================== END HERO ============================ */
+
+
+/* ======================== Features ============================ */
+
+.features-list{
+    list-style: none;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--title-color);
+}
+
+.description {
+    font-weight:400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color:var(--main-text-color);
+}
+
+/* ======================== END Features ============================ */
+
+
+
+
+
+
+/* ===============================What are we doing================= */
+
+.work-list,
+.team-list {
+    list-style: none;
+}
+
+/*=============================== End What are we doing================= */
+
+
+
+
+
+/* ======================== Our team ============================ */
+
+
+.work-title,
+.team-title {
+    font-weight:700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.team-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.186;
+    letter-spacing: 0.03em;
+    color:var(--title-color);
+}
+
+.team-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.186;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+
+/* ======================== END Our team ============================ */
+
+/* ======================== footer ============================ */
+
+.footer{
+    background:var(--background-color);
+}
+
+.address-list {
+    list-style: none;
+}
+
+.address-map {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+    text-decoration: none;
+    font-style: normal;
+}
+
+.address-mail {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+.address-tel {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+}
+
+/* ======================== END footer ============================ */
+
+
+/* ======================== Portfolio ============================ */
+
+.portfolio-list {
+   list-style: none;
+}
+
+.portfolio-nav {
+    list-style: none;
+}
+
+.portfolio-nav-link{
+    text-decoration: none;
+}
+
+.portfolio-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+background: #F5F4FA;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background: var(--accent-color);
+    color: var(--second-text-color);
+}
+
+.portfolio-nav-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+
+.portfolio-nav-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color:var(--main-text-color);
+}
+
+/* ======================== END Portfolio ============================ */
